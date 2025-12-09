@@ -1,3 +1,0 @@
-.psd filter=lfs diff=lfs merge=lfs -text
-Fotos filter=lfs diff=lfs merge=lfs -text
-marty.jpg filter=lfs diff=lfs merge=lfs -text
