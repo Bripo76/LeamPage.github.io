@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoZoo - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+       <div class="logo">
+            <img src="Fotos/LOGOZOO.png"  class="logo-img">
+            <span>EcoZoo</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="animales.html">Animales</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+            <li><a href="perfil.html">Mi Perfil</a></li>
+        </ul>
+    </nav>
+
+    <main class="container fade-in">
+        <h2>Planea tu Visita</h2>
+        <div class="form-container">
+            <form id="contactForm">
+                <label>Nombre:</label>
+                <input type="text" id="nombre" placeholder="Tu nombre..." required>
+                
+                <label>Correo:</label>
+                <input type="email" placeholder="tucorreo@ejemplo.com" required>
+                
+                <label>Mensaje:</label>
+                <textarea rows="4" placeholder="¿Cuándo abren?"></textarea>
+                
+                <button type="button" class="btn" onclick="enviarMensaje()">Enviar Mensaje</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
